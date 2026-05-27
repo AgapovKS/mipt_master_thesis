@@ -1,0 +1,52 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "socratic",
+  "dataset_name": "gsm8k",
+  "dataset_size": 6134967,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/openai/gsm8k@740312add88f781978c0658806c59bc2815b9866/socratic/train-00000-of-00001.parquet": {
+      "num_bytes": 2677259,
+      "checksum": null
+    },
+    "hf://datasets/openai/gsm8k@740312add88f781978c0658806c59bc2815b9866/socratic/test-00000-of-00001.parquet": {
+      "num_bytes": 486995,
+      "checksum": null
+    }
+  },
+  "download_size": 3164254,
+  "features": {
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 9299221,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 5198108,
+      "num_examples": 7473,
+      "dataset_name": "gsm8k"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 936859,
+      "num_examples": 1319,
+      "dataset_name": "gsm8k"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

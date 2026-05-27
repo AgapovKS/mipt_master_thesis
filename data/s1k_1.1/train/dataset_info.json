@@ -1,0 +1,86 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "s1_k-1.1",
+  "dataset_size": 48313304,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/simplescaling/s1K-1.1@96c411f1fe4c49d20f0e2a1565f61e1a28b0b84d/data/train-00000-of-00001.parquet": {
+      "num_bytes": 22323185,
+      "checksum": null
+    }
+  },
+  "download_size": 22323185,
+  "features": {
+    "solution": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "cot_type": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "source_type": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "metadata": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "gemini_thinking_trajectory": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "gemini_attempt": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "deepseek_thinking_trajectory": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "deepseek_attempt": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "gemini_grade": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "gemini_grade_reason": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "deepseek_grade": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "deepseek_grade_reason": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 70636489,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 48313304,
+      "num_examples": 1000,
+      "dataset_name": "s1_k-1.1"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
